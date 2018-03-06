@@ -80,11 +80,6 @@ if (URHO3D_LUA)
     add_subdirectory (ThirdParty/toluapp/src/lib)
 endif ()
 
-if (URHO3D_NETWORK)
-    add_subdirectory (ThirdParty/Civetweb)
-    add_subdirectory (ThirdParty/kNet)
-endif ()
-
 if (URHO3D_DATABASE_ODBC)
     add_subdirectory (ThirdParty/nanodbc)
 endif ()
